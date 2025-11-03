@@ -1,0 +1,6 @@
+ssh -p 2222 s408931@se.ifmo.ru -L <portbase>:helios.cs.ifmo.ru:<portbase>
+
+
+
+[s408931@helios ~]$ cd web/lab2
+[s408931@helios ~/web/lab2]$ ./target/server/bin/standalone.sh
